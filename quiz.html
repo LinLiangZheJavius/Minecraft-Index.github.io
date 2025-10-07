@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap">
+    <title> Minecraft Quiz </title>
+    <link rel="stylesheet" href="mainM.css">
+</head>
+<body>
+
+<div class="Quiz-qs">
+    Minecraft Knowledge Quiz
+</div>
+
+    <div class="quiz-con">
+        <!-- Progress bar -->
+            <div class="progress-bar-bg">
+                <div class="progress-bar-fill" id="progress-bar-fill"> </div>
+            </div>
+        <!-- Q lable -->
+        <div class="Qs!!!" id="Q">
+            👾 Qs will be here. Press START to begin!!! 👾
+        </div>
+
+        <!-- Drop-down menu-->
+        <select class="drop-down" id="drop-down">
+            <option value="1"> easy 🌻 </option>
+            <option value="2"> MEDIUM ⚛️ </option>
+            <option value="3"> HaRd 💎 </option>
+        </select>
+
+        <!-- Option Button -->
+        <div class="option-box" id="option-box">
+        </div>
+        <!-- Score/ Feedback lable-->
+         <div class="score-label" id="score">
+            You Scored 0 Points
+         </div>
+         <div class="feedback-label" id="feedback">
+            There is no feedback to be found
+         </div>
+
+        <!-- Start button -->
+         <button class="START" id="start"> Downloading World... </button>
+    </div>
+    <div class="timer">
+        <span id="timer-text"> 10 </span>
+    </div>
+    
+    <!-- bgm dpdn-->
+    <select class="bgm" id="bgm">
+        <option value=""> 💽 Pls select a Music disk 💽 </option>
+        <option value="SodaPop.mp3"> 🧴My little Soda Pop 🧴 </option>
+        <option value="Golden.mp3"> 💎 Huntrix Golden 💎 </option>
+        <option value="Takedown.mp3"> 👊 Huntrix Takedown 👊 </option>
+        <option value="ThisisWhatItSoundsLike.mp3"> 🎙️ What It Sounds Like 🎙️ </option>
+        <option value="Free.mp3"> ☺️ Huntrix Free ☺️ </option>
+        <option value="CountOnMe.mp3"> 🔢 Count On Me 🔢 </option>
+    </select>
+
+    <button class="music-btn" id="music-btn"> 🚫 Music Off 🚫 </button>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
